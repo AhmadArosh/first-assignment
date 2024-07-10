@@ -8,7 +8,7 @@
  align-items: center;
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  padding: 80px;
+  padding: 50px;
   
 }
 
@@ -41,9 +41,6 @@ margin-right: auto;
  border-radius:10px 10px 10px 10px;
 margin-top: 32px;
 }
-.why{
-
-}
 .dev{
     font-size: 32px;
     font-weight: 800;
@@ -55,5 +52,186 @@ margin-top: 32px;
     font-weight: 400;
     text-align: center;
     margin-top: 32px;
+    margin-bottom: 70px;
+}
+.why{
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 30px;
+    display: flexbox;
+    
+}
+.help{
+color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+}
+.help-info{
+color: rgba(13, 19, 33, 1);
+font-size: 16px;
+margin-right: 500px;
+}
+.help-info-2{
+    color: rgba(13, 19, 33, 1);
+font-size: 16px;
+margin-left: 500px;
+}
+.btn-2{
+    margin-top: 32px;
+    background-color: #FFFFFF;
+font-size: 18px;
+font-weight: 400;
+color:rgba(13, 19, 33, 1);
+padding: 10px;
+border-radius: none;
+width: 148px;
+height: 48px;
+}
+.img-3{
+    flex: none;
+order: 0;
+align-self: self-start;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.img-2{
+    flex: none;
+    align-self: self-end;
+    flex-grow: 0;
+  
+    
+}
+.bg-1{display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 16px;
+padding: 0;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-left: 48px;
+}
+.bg-2{display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 100px;
+    border-radius: 16px;
+    align-items: flex-end;
+    margin-right: 48px;
+
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.inspire{
+    margin-bottom: 25px;
+    margin-top: 85px;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.inspire-info{
+color: #0D1321;
+font-size: 16px;
+text-align: center;
+}
+.iframe{ width: 1076px;
+    height: 600px;
+    display: block;
+ margin: 0 auto;
+ margin-top: 50px;
+ box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 32px;
+}
+.goals{
+    display: flexbox;
+    
+}
+.target{
+    margin-top: 150px;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.target-info{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    text-align: center;
     margin-bottom: 48px;
+}
+.skills{
+    display: flex;
+    gap: 64px;
+    justify-content: space-around;
+}
+.anchor{
+    font-size: 16px;
+color: #0D1321;
+font-weight: 700;
+margin-top: 25px;}
+.background{
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 50px ;
+    border-radius: 16px;
+}
+.background-2{
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px ;
+    border-radius: 16px;
+}
+.foot{
+    margin-top: 40px;
+    background-image: url('../assets/handshake.jpg');
+    display: flexbox;
+    text-align: center;
+    padding: 64px;
+    border-radius: 16px;
+}
+.support{
+font-size: 32px;
+font-weight: 700;
+color: #FFFFFF;
+}
+.support-info{
+font-size: 12px;
+font-size: 400;
+color: #FFFFFF;
+}
+.feedback{font-size: 16px;
+    color: rgba(13, 19, 33, 0.4);
+    margin-top: 40px;
+    width: 548px;
+    height: 57px;
+border-radius: 8px;
+}
+.submit{margin-top: 40px;
+    width: 120px;
+height: 58px;
+border-radius: 8px;
+font-size: 20px;
+font-weight: 600;
+}
+.socials{
+    margin-top: 80px;
+    display: flex;
+  
+    align-items: center;
+    
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.social-info{
+ font-size: 20px;
+ font-weight: 700;
+}
+.icon{
+margin-left: 40px ;
+justify-self: flex-end;
+}
+header button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.a2{
+    text-decoration: none;
+    color: #0D1321;
 }
